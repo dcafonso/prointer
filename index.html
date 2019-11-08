@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title></title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css"/>
+</head>	
+<body>
+    <div class="container">
+        <hr class="my-4">
+
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Principal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Desktops/Notebooks</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Smartphones/Tables</a>
+          </li>
+        </ul>
+
+        <hr class="my-4">
+        
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div class="jumbotron">
+                    <h1 class="display-4">Prointer</h1> <br>
+
+                    <h5>
+                        <p><strong>Curso:</strong> Tecnologia em Análise e Desenvolvimento de Sistemas</p>
+                        <p><strong>Disciplina:</strong> Projeto Interdisciplinar Aplicado aos Cursos Superiores de Tecnologia</p>
+                        <p><strong>Nome do Aluno:</strong> Daniel Carlos Afonso - <strong>RA:</strong> 2662261424</p>
+                    </h5>
+                </div>
+                
+                <section>
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="img/logo.png" alt="logo" id="logo">
+                        </div>
+                        
+                        <div class="col-9">
+                            <p class="principal">
+                                A diversidade de dispositivos disponíveis atualmente pode nos deixar confusos, na hora de escolher um deles. Porém temos que observar que cada um tem sua relevância de acordo com a necessidade. 
+                                Este projeto irá mostrar informações e comparações entre estes dispositivos.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <div class="row row1">
+                    <div class="col-6">
+                        <h1 class="display-4"><span class="badge badge-info">Desktops</span></h1> <br>
+
+                        <img src="img/desktop.png" alt="desktop"> <br><br>
+                        
+                        <p class="computadores">
+                            Ideais para escritórios, escolas e etc, devido ao seu baixo custo e fácil manutenção, facilidade de atualização, e ainda costumam ter desempenho melhor do que os notebooks.
+                            Fatores como não ter portabilidade, alto consumo de energia, e ocupação de espaço, são algumas de suas desvantagens.
+                        </p>
+                    </div>
+                    
+                    <div class="col-6">
+                        <h1 class="display-4"><span class="badge badge-info">Notebooks</span></h1> <br>
+                        
+                        <img src="img/notebook.jpg" alt="notebook"> <br><br>
+                        
+                        <p class="computadores">
+                            Possuem além do tamanho reduzido, algumas outras vantagens se comparado à um computador desktop, como por exemplo ser portátil. Pode se utilizá-lo apenas consumindo a energia de sua bateria, e em qualquer lugar.
+                            Como ponto negativo, temos a manutenção, que deve ser feita por pessoas especializadas, e que geralmente custam mais caro.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                <div class="row row1">
+                    <div class="col-6">
+                        <h1 class="display-4"><span class="badge badge-warning">Smartphones</span></h1> <br>
+                        
+                        <img src="img/smart.png" alt="smartphone"> <br><br>
+                        
+                        <p class="computadores">
+                            Cada vez mais popular, este computador de bolso realiza centenas de funções. Quem quer ter um telefone celular, e ficar conectado à internet, com certeza esta é a  melhor opção.
+                            Possui uma variedade imensa de aplicativos, desde aplicativos de jogos, até organizadores pessoais. Há vários modelos e tamanhos, mas por outro lado quanto melhor ele for, mais caro ele se torna.
+                        </p>
+                    </div>
+                    
+                    <div class="col-6">
+                        <h1 class="display-4"><span class="badge badge-warning">Tablets</span></h1> <br>
+                        
+                        <img src="img/tablet.png" alt="tablet"> <br><br>
+                        
+                        <p class="computadores">
+                            Não possuem teclado e mouse como os computadores convencionais, sua usabilidade é pela própria tela, devido à tecnologia touchscreen.
+                            Ponto positivo dos tablets são a conectividade, portabilidade e facilidade de uso. São para as pessoas que gostam de estar conectadas a internet, para efetuar consultas rápidas, e acessar redes sociais.
+                            Porém, não é possível realizar upgrades em suas peças internas, também não tem a possibilidade de trocar de sistema operacional ou instalar alguns programas feitos para PCs. Tarefas comuns feitas em computadores, como escrever grandes textos, ou realizar tarefas que exijam mais tempo, ficam dificultadas devido sua arquitetura.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
+</body>
+</html>

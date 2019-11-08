@@ -1,0 +1,21 @@
+.principal {
+    text-align: justify;
+    font-size: 20px;
+    position: absolute;
+}
+
+.computadores {
+    text-align: left;
+    font-size: 16px;
+    position: absolute;
+}
+
+#logo {
+    position: absolute;
+    width: 60%;
+}
+
+.row1 {
+    text-align: center;
+    padding: 5px;
+ }
